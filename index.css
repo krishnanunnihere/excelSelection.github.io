@@ -15,7 +15,6 @@ h1.method1
 {
     display: flex;
     justify-content: center;
-  
     background: -webkit-gradient(linear, 100% 0, 0 0, from(red), to(orange));
     background: -webkit-linear-gradient(right, red, orange);
     background: -moz-linear-gradient(right, red, orange);
@@ -56,7 +55,10 @@ h1.method1
     font-family:"Arial Black", Gadget, sans-serif;
   
 }
-
+#text-input
+{
+    margin-right:50px;
+}
 
 #form-element
 {   

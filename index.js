@@ -1,18 +1,16 @@
 
-function saveData()
-{
+function saveData(){
   var data;
-  fetch('https://jsonplaceholder.typicode.com/posts',{
-    method:'POST',
-    headers:
-    {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(data)
+    fetch('https://jsonplaceholder.typicode.com/posts', {
+  method: 'POST', 
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(data)
   })
-  .then(res=>res.json())
-  .then(response=>console.log('SUCCESS',JSON.stringify(response)))
-  .catch(error=>comsole.error('ERROR:',error));
+  .then(res => res.json())
+  .then(response => console.log('SUCCESS', JSON.stringify(response)))
+  .catch(error => console.error('ERROR:', error));
 }
 
 function showPass() {
