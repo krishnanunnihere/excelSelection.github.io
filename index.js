@@ -1,4 +1,4 @@
-function printData(){
+function saveData(){
   var data;
     fetch('https://jsonplaceholder.typicode.com/posts', {
   method: 'POST', 
