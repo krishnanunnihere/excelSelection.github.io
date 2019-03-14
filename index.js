@@ -1,5 +1,4 @@
-
-function saveData(){
+function printData(){
   var data;
     fetch('https://jsonplaceholder.typicode.com/posts', {
   method: 'POST', 
@@ -9,15 +8,6 @@ function saveData(){
   body: JSON.stringify(data)
   })
   .then(res => res.json())
-  .then(response => console.log('SUCCESS', JSON.stringify(response)))
-  .catch(error => console.error('ERROR:', error));
+  .then(response => console.log('Success', JSON.stringify(response)))
+  .catch(error => console.error('Error:', error));
 }
-
-function showPass() {
-  var x = document.getElementById("myInput");
-  if (x.type === "password") {
-    x.type = "text";
-  } else {
-    x.type = "password";
-  }
-} 

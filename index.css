@@ -62,6 +62,7 @@ h1.method1
 
 #form-element
 {   
+    margin-right:50px;
     width:25vw;
     border:1px solid #ccc;
     display:inline;
