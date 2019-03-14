@@ -1,13 +1,18 @@
-function printData(){
-  var data;
-    fetch('https://jsonplaceholder.typicode.com/posts', {
+function saveData(){
+  let title = document.getElementById('username').value;
+  let body = document.getElementById('email').value;
+
+	fetch('https://jsonplaceholder.typicode.com/posts', {
   method: 'POST', 
   headers: {
-    'Content-Type': 'application/json'
+    "Content-type": "application/json; charset=UTF-8"
   },
-  body: JSON.stringify(data)
+  body: JSON.stringify({title:title, body:body})
   })
-  .then(res => res.json())
-  .then(response => console.log('Success', JSON.stringify(response)))
+  .then(response => response.json())
+  .then(data => {
+    window.alert(JSON.stringify(data));
+    console.log(data);
+  })
   .catch(error => console.error('Error:', error));
 }
