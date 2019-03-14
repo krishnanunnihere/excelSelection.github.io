@@ -1,4 +1,4 @@
-function saveData(){
+function showData(){
   let title = document.getElementById('username').value;
   let body = document.getElementById('email').value;
 
@@ -16,3 +16,12 @@ function saveData(){
   })
   .catch(error => console.error('Error:', error));
 }
+
+function myFunction() {
+  var x = document.getElementById('password');
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+} 

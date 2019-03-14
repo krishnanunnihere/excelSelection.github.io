@@ -60,7 +60,7 @@ h1.method1
     margin-right:50px;
 }
 
-#form-element
+#username
 {   
     margin-right:50px;
     width:25vw;
@@ -69,7 +69,7 @@ h1.method1
     font-size:20px;
     padding: 10px 15px;
     margin:15px auto;
-    margin-left:10px;
+    margin-left:15px;
     margin-top:5%;
     height:30px;
     font-size:14pt;
@@ -78,19 +78,57 @@ h1.method1
     border-color: #FF0000;
     box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.075), 0 0 10px rgba(210, 0, 0, 0.9);
 }
+#email
+{   
+    margin-right:50px;
+    width:25vw;
+    border:1px solid #ccc;
+    display:inline;
+    font-size:20px;
+    padding: 10px 15px;
+    margin:15px auto;
+    margin-left:15px;
+    height:30px;
+    font-size:14pt;
+    color:rgb(175, 165, 165);
+    background:#282828;
+    border-color: #FF0000;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.075), 0 0 10px rgba(210, 0, 0, 0.9);
+}
+#password
+{   
+    
+    width:25vw;
+    border:1px solid #ccc;
+    display:inline;
+    font-size:20px;
+    padding: 10px 15px;
+    margin:15px auto;
+    margin-left:10px;
+    margin-bottom:1px;
+    height:30px;
+    font-size:14pt;
+    color:rgb(175, 165, 165);
+    background:#282828;
+    border-color: #FF0000;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.075), 0 0 10px rgba(210, 0, 0, 0.9);
+}
 
-
-#text-input
+#adjust-margin
 {
-    margin-left:5%;
+    margin-right:12%;
 }
 #chkbox
 {
-    margin-left:16px;
-    font-size: 15px;
+    font-size:18px;
     color:grey;
 }
-
+#button
+{
+    margin-top:5%;
+    margin-bottom:5%;
+    
+}
 .gradient-button 
 {
     margin: 5px;
